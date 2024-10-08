@@ -1,0 +1,605 @@
+﻿<!DOCTYPE html>
+<html lang="ru" class="js">
+  <head>
+    <meta charset="utf-8" />
+    <title>Регистрация • L2Lucky.ru</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/css/cabinet.css?id=fdef99af930adc80dfd9"
+    />
+    <link rel="shortcut icon" href="images/favicon.ico" />
+
+    <script src="assets/js/jquery-2.1.1.min.js"></script>
+
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-NWN26Z3");
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <script src="recaptcha/api.js?render=6LeP15IeAAAAAGCKcfY6hvRB7XlSwZJkHJnoeFEa"></script>
+  </head>
+
+  <body class="nk-body bg-white npc-default has-aside dark-mode">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-NWN26Z3"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div class="nk-app-root">
+      <div class="nk-main">
+        <div class="nk-wrap nk-wrap-nosidebar">
+          <div class="nk-content">
+            <div class="nk-split nk-split-page nk-split-md">
+              <div
+                class="nk-split-content nk-block-area nk-block-area-column nk-auth-container bg-white"
+              >
+                <div class="nk-block nk-block-middle nk-auth-body">
+                  <div class="brand-logo pb-5">
+                    <a href="index.htm" class="logo-link">
+                      <img
+                        class="logo-light logo-img"
+                        src="images/logo.png"
+                        srcset="images/logo2x.png 2x"
+                        alt="logo"
+                      />
+                      <img
+                        class="logo-dark logo-img"
+                        src="images/logo-dark.png"
+                        srcset="images/logo-dark2x.png 2x"
+                        alt="logo-dark"
+                      />
+                    </a>
+                  </div>
+                  <div class="nk-block-head">
+                    <div class="nk-block-head-content">
+                      <h5 class="nk-block-title">Регистрация</h5>
+                    </div>
+                  </div>
+
+                  <link rel="stylesheet" href="assets/css/intlTelInput.css" />
+                  <script src="assets/js/jquery-2.1.1.min.js"></script>
+
+                  <div class="col-sm-12 tabs">
+                    <ul class="nav nav-tabs">
+                      <li class="">
+                        <a
+                          href="#tab-email"
+                          data-toggle="tab"
+                          aria-expanded="true"
+                          class="active"
+                          ><em class="icon ni ni-email"></em>Email</a
+                        >
+                      </li>
+
+                      <li class="">
+                        <a
+                          href="#tab-mobile"
+                          data-toggle="tab"
+                          aria-expanded="false"
+                          ><em class="icon ni ni-phone"></em>Мобильный</a
+                        >
+                      </li>
+                    </ul>
+                    <div class="tab-content">
+                      <div class="tab-pane active" id="tab-email">
+                        <form action="/register.html" method="POST">
+                          <input
+                            type="hidden"
+                            name="_token"
+                            value="WQxSrLshzvEeRYihIXYM5yOnbx82NDU3SCrrNhv2"
+                          />
+                          <input name="type" type="hidden" value="email" />
+
+                          <div class="form-group">
+                            <label class="form-label" for="name"
+                              >Имя
+                              <small style="display: block; font-size: 11px"
+                                >(используйте латинские буквы и введите не более
+                                14 символов)</small
+                              ></label
+                            >
+                            <input
+                              type="text"
+                              class="form-control form-control-lg"
+                              id="name"
+                              name="name"
+                              placeholder="Введите своё имя"
+                              value=""
+                            />
+                          </div>
+                          <div class="form-group">
+                            <label class="form-label" for="email">E-Mail</label>
+                            <input
+                              type="text"
+                              class="form-control form-control-lg"
+                              id="email"
+                              name="email"
+                              placeholder="Введите E-Mail"
+                              value=""
+                            />
+                          </div>
+                          <div class="form-group">
+                            <label class="form-label" for="password"
+                              >Пароль
+                              <small style="display: block; font-size: 11px"
+                                >(используйте латинские буквы и введите не менее
+                                8 символов)</small
+                              ></label
+                            >
+                            <div class="form-control-wrap">
+                              <a
+                                tabindex="-1"
+                                href="#"
+                                class="form-icon form-icon-right passcode-switch"
+                                data-target="password"
+                              >
+                                <em
+                                  class="passcode-icon icon-show icon ni ni-eye"
+                                ></em>
+                                <em
+                                  class="passcode-icon icon-hide icon ni ni-eye-off"
+                                ></em>
+                              </a>
+                              <input
+                                type="password"
+                                class="form-control form-control-lg"
+                                id="password"
+                                name="password"
+                                placeholder="Введите пароль"
+                              />
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <label
+                              class="form-label"
+                              for="password_confirmation"
+                              >Подтвердите пароль</label
+                            >
+                            <div class="form-control-wrap">
+                              <a
+                                tabindex="-1"
+                                href="#"
+                                class="form-icon form-icon-right passcode-switch"
+                                data-target="password_confirmation"
+                              >
+                                <em
+                                  class="passcode-icon icon-show icon ni ni-eye"
+                                ></em>
+                                <em
+                                  class="passcode-icon icon-hide icon ni ni-eye-off"
+                                ></em>
+                              </a>
+                              <input
+                                type="password"
+                                class="form-control form-control-lg"
+                                id="password_confirmation"
+                                name="password_confirmation"
+                                placeholder="Введите пароль ещё раз"
+                              />
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <div
+                              class="custom-control custom-control-xs custom-checkbox flex-wrap"
+                            >
+                              <input
+                                type="checkbox"
+                                class="custom-control-input"
+                                id="ok"
+                                name="ok"
+                                value="1"
+                              />
+                              <label class="custom-control-label" for="ok">
+                                Я согласен с
+                                <a tabindex="-1" href="policy.html"
+                                  >политикой конфиденциальности</a
+                                >
+                                &amp;
+                                <a tabindex="-1" href="term.html"
+                                  >пользовательским соглашением</a
+                                >.
+                              </label>
+                            </div>
+                          </div>
+                          <input
+                            type="hidden"
+                            name="recaptcha_v3"
+                            id="recaptcha_v3-63065cc136dcf"
+                          />
+                          <script>
+                            grecaptcha.ready(function () {
+                              grecaptcha
+                                .execute(
+                                  "6LeP15IeAAAAAGCKcfY6hvRB7XlSwZJkHJnoeFEa",
+                                  { action: "register" }
+                                )
+                                .then(function (token) {
+                                  document.getElementById(
+                                    "recaptcha_v3-63065cc136dcf"
+                                  ).value = token;
+                                });
+                            });
+                          </script>
+                          <div class="form-group">
+                            <button
+                              type="submit"
+                              class="btn btn-lg btn-primary btn-block"
+                            >
+                              Зарегистрироваться
+                            </button>
+                          </div>
+                        </form>
+                      </div>
+
+                      <div class="tab-pane" id="tab-mobile">
+                        <form action="/register.html" method="POST">
+                          <input
+                            type="hidden"
+                            name="_token"
+                            value="WQxSrLshzvEeRYihIXYM5yOnbx82NDU3SCrrNhv2"
+                          />
+                          <input
+                            id="phone_code"
+                            name="phone_code"
+                            type="hidden"
+                            value="7"
+                          />
+                          <input name="type" type="hidden" value="phone" />
+
+                          <div class="form-group">
+                            <label class="form-label" for="name"
+                              >Имя
+                              <small style="display: block; font-size: 11px"
+                                >(используйте латинские буквы и введите не менее
+                                8 символов)</small
+                              ></label
+                            >
+                            <input
+                              type="text"
+                              class="form-control form-control-lg"
+                              id="name"
+                              name="name"
+                              placeholder="Введите своё имя"
+                              value=""
+                            />
+                          </div>
+                          <div class="form-group">
+                            <label class="form-label" for="phone"
+                              >Телефон</label
+                            >
+                            <input
+                              type="tel"
+                              class="form-control form-control-lg"
+                              id="phone"
+                              name="phone"
+                              placeholder="Введите номер телефона"
+                              value=""
+                            />
+                          </div>
+
+                          <div class="form-group row">
+                            <div class="col-12">
+                              <label for="t-signup-sms-cod">SMS код</label>
+                              <div class="input-group">
+                                <div class="input-group-prepend">
+                                  <button
+                                    type="button"
+                                    class="btn btn-lg btn-primary btn-block send-sms"
+                                  >
+                                    <i
+                                      class="fa fa-envelope"
+                                      aria-hidden="true"
+                                    ></i>
+                                    Получить SMS код
+                                  </button>
+                                </div>
+                                <input
+                                  type="text"
+                                  class="form-control"
+                                  id="t-signup-sms-cod"
+                                  name="sms_code"
+                                  placeholder="XXXX"
+                                />
+                              </div>
+                            </div>
+                            <div class="invalid-feedback send-sms-msg">
+                              Вы сможете запросить новое смс через
+                              <span class="seconds">60</span> сек.
+                            </div>
+                          </div>
+
+                          <div class="form-group">
+                            <label class="form-label" for="password"
+                              >Пароль
+                              <small style="display: block; font-size: 11px"
+                                >(используйте латинские буквы и введите не менее
+                                8 символов)</small
+                              ></label
+                            >
+                            <div class="form-control-wrap">
+                              <a
+                                tabindex="-1"
+                                href="#"
+                                class="form-icon form-icon-right passcode-switch"
+                                data-target="password2"
+                              >
+                                <em
+                                  class="passcode-icon icon-show icon ni ni-eye"
+                                ></em>
+                                <em
+                                  class="passcode-icon icon-hide icon ni ni-eye-off"
+                                ></em>
+                              </a>
+                              <input
+                                type="password"
+                                class="form-control form-control-lg"
+                                id="password2"
+                                name="password"
+                                placeholder="Введите пароль"
+                              />
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <label
+                              class="form-label"
+                              for="password_confirmation"
+                              >Подтвердите пароль</label
+                            >
+                            <div class="form-control-wrap">
+                              <a
+                                tabindex="-1"
+                                href="#"
+                                class="form-icon form-icon-right passcode-switch"
+                                data-target="password_confirmation2"
+                              >
+                                <em
+                                  class="passcode-icon icon-show icon ni ni-eye"
+                                ></em>
+                                <em
+                                  class="passcode-icon icon-hide icon ni ni-eye-off"
+                                ></em>
+                              </a>
+                              <input
+                                type="password"
+                                class="form-control form-control-lg"
+                                id="password_confirmation2"
+                                name="password_confirmation"
+                                placeholder="Введите пароль ещё раз"
+                              />
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <div
+                              class="custom-control custom-control-xs custom-checkbox flex-wrap"
+                            >
+                              <input
+                                type="checkbox"
+                                class="custom-control-input"
+                                id="ok2"
+                                name="ok"
+                                value="1"
+                              />
+                              <label class="custom-control-label" for="ok2">
+                                Я согласен с
+                                <a tabindex="-1" href="policy.html"
+                                  >политикой конфиденциальности</a
+                                >
+                                &amp;
+                                <a tabindex="-1" href="term.html"
+                                  >пользовательским соглашением</a
+                                >.
+                              </label>
+                            </div>
+                          </div>
+                          <input
+                            type="hidden"
+                            name="recaptcha_v3"
+                            id="recaptcha_v3-63065cc137014"
+                          />
+                          <script>
+                            grecaptcha.ready(function () {
+                              grecaptcha
+                                .execute(
+                                  "6LeP15IeAAAAAGCKcfY6hvRB7XlSwZJkHJnoeFEa",
+                                  { action: "register" }
+                                )
+                                .then(function (token) {
+                                  document.getElementById(
+                                    "recaptcha_v3-63065cc137014"
+                                  ).value = token;
+                                });
+                            });
+                          </script>
+                          <div class="form-group">
+                            <button
+                              type="submit"
+                              class="btn btn-lg btn-primary btn-block"
+                            >
+                              Зарегистрироваться
+                            </button>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="form-note-s2 pt-4">
+                    У Вас уже есть аккаунт?
+                    <a href="login.html"><strong>Авторизоваться</strong></a>
+                  </div>
+
+                  <script src="assets/js/intlTelInput.min.js"></script>
+                  <script>
+                    document.addEventListener(
+                      "DOMContentLoaded",
+                      function (event) {
+                        let input = document.querySelector("#phone");
+                        let iti = window.intlTelInput(input, {
+                          initialCountry: "ru",
+                          nationalMode: false,
+                          placeholderNumberType: "MOBILE",
+                          preferredCountries: [
+                            "ru",
+                            "ua",
+                            "by",
+                            "md",
+                            "kz",
+                            "uz",
+                            "az",
+                            "pl",
+                            "am",
+                            "ge",
+                            "bg",
+                            "be",
+                            "tj",
+                            "kg",
+                            "lt",
+                            "lv",
+                            "ee",
+                            "ro",
+                            "tm",
+                            "ch",
+                            "de",
+                          ],
+                          separateDialCode: true,
+                          utilsScript: "/assets/js/utils.js",
+                        });
+                        $("#phone_code").val(
+                          iti.getSelectedCountryData().dialCode
+                        );
+                        $(".separate-dial-code").on(
+                          "click",
+                          ".selected-flag, .country",
+                          function () {
+                            $("#phone_code").val(
+                              iti.getSelectedCountryData().dialCode
+                            );
+                          }
+                        );
+                        $(".send-sms").on("click", function (e) {
+                          e.preventDefault();
+                          let phone_code = $("input[name=phone_code]").val();
+                          let phone =
+                            phone_code +
+                            $("input[name=phone]").val().replace(/\D/g, "");
+                          let captcha = $("input[name=recaptcha_v3]").val();
+
+                          console.log(phone);
+
+                          $("input[name=phone]").removeClass("error");
+                          if (phone.length < 10) {
+                            $("input[name=phone]").addClass("error");
+                            return false;
+                          }
+
+                          let time = "60";
+                          $(".send-sms").text("SMS код отправлен!");
+                          $(".send-sms").prop("disabled", true);
+                          $(".seconds").text(time);
+                          $(".send-sms-msg").show();
+                          Timer(time);
+
+                          $.ajax({
+                            type: "POST",
+                            url: "/register.html/sendcode",
+                            data: { phone: phone, captcha: captcha },
+                            headers: {
+                              "X-CSRF-Token": $("input[name=_token]").val(),
+                            },
+                          }).done(function (msg) {
+                            if (msg.indexOf("error_timer") !== -1) {
+                              time = msg.replace("error_timer=", "");
+                              console.log(time);
+                              $(".seconds").text(time);
+                              $(".send-sms-msg").show();
+                              Timer(time);
+                            }
+                          });
+                        });
+                      }
+                    );
+                  </script>
+
+                  <script>
+                    function Timer(seconds) {
+                      console.log(seconds);
+                      var _Seconds = seconds,
+                        int;
+                      int = setInterval(function () {
+                        if (_Seconds > 0) {
+                          _Seconds--;
+                          $(".seconds").text(_Seconds);
+                        } else {
+                          clearInterval(int);
+                          $(".send-sms-msg").hide();
+                          $(".send-sms").text("Получить SMS код");
+                          $(".send-sms").prop("disabled", false);
+                        }
+                      }, 1000);
+                    }
+                  </script>
+                </div>
+                <div class="nk-block nk-auth-footer">
+                  <div class="mt-3">
+                    <div class="footer__copyright-info">
+                      <div class="footer__copyright-info--text">
+                        &copy; 2022 ВАШЕ НАЗВАНИЕ
+                      </div>
+                      <div class="footer__copyright-info--policy">
+                        <a href="term.html">ПОЛЬЗОВАТЕЛЬСКОЕ СОГЛАШЕНИЕ</a>
+                        <a href="policy.html">ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="nk-split-content nk-split-stretch man-auth d-none d-md-block"
+              >
+                <div class="nk-footer-links-auth-logo">
+                  <ul class="nav nav-sm">
+                    <li class="nav-item logo-link">
+                      <a
+                        class="nav-link"
+                        href="https://wizardcp.com"
+                        title="WizardCP — Control panel for magical game projects"
+                        target="_blank"
+                        rel="dofollow"
+                        ><img src="img/wizardcp-logo-light.png"
+                      /></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bundle.js"></script>
+    <script src="assets/js/scripts.js?id=0cdc233a9e6c7e95fcf4"></script>
+    <script src="assets/js/ion.rangeSlider.min.js"></script>
+  </body>
+</html>
